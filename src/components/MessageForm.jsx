@@ -3,6 +3,7 @@ import { SendOutlined, PictureOutlined } from '@ant-design/icons';
 import { sendMessage, isTyping } from 'react-chat-engine';
 
 const MessageForm = (props) => {
+    console.log(props)
   const [value, setValue] = useState('');
   const { chatId, creds } = props;
 
